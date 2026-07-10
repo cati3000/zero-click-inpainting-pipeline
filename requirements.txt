@@ -1,0 +1,11 @@
+torch
+torchvision
+diffusers
+transformers
+accelerate
+peft
+opencv-python-headless
+Pillow
+numpy
+requests
+lpips
