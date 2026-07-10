@@ -1,6 +1,6 @@
 # Zero-Click Image Inpainting Pipeline
 
-[![Open In Colab](https://colab.research.google.com/drive/1gscDRmVlumfdt0i-t6_dFGYgE_1c1OCU#scrollTo=_khoCNOCuHNd)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1gscDRmVlumfdt0i-t6_dFGYgE_1c1OCU)
 
 An automated, zero-shot image editing pipeline that dynamically detects objects using GroundingDINO, generates padded segmentation masks via OpenCV, and executes high-fidelity replacement using Stable Diffusion XL. 
 
@@ -16,6 +16,6 @@ Unlike standard inpainting workflows that require manual brush masking, this pip
 
 ### Installation
 ```bash
-git clone [https://github.com/YOUR_USERNAME/zero-click-inpainter.git](https://github.com/YOUR_USERNAME/zero-click-inpainter.git)
-cd zero-click-inpainter
+git clone [https://github.com/cati3000/zero-click-inpainting-pipeline.git](https://github.com/cati3000/zero-click-inpainting-pipeline.git)
+cd zero-click-inpainting-pipeline
 pip install -r requirements.txt
